@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link
       rel="stylesheet"
@@ -10,89 +10,63 @@
       integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
       crossorigin="anonymous"
     />
-</head>
-<body>
-   
 
-
-
-
-
-
-
-
-
-    
+    <style>
+      .one {
+        display: flex;
+        width: 100px;
+        height: 100px;
+        background-color: red;
+      }
+    </style>
+  </head>
+  <body>
     <div class="container">
-
-            <div class="row">
-                <div class="col-sm-3"></div>
-                <div class="col-sm-6  ">
-                    <p class="display-4 text-center">Registration form</p>
-                    <hr>
-
-                    <table class="table text-right table-borderless">
-                        <tr>
-                            <td>Username</td>
-                            <td>
-                                <input type="text" name="" id="" class="form-control">
-                            </td>
-                        </tr>
-
-                        <tr>
-                            <td>Password</td>
-                            <td>
-                                <input type="text" name="" id="" class="form-control">
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>Date of birth</td>
-                            <td>
-                                <input type="date" name="" id="" class="form-control">
-                            </td>
-                        </tr>
-                    </table>
-
-                    <button class="btn btn-outline-success  btn-block d-block mx-auto">Login</button>
-                </div>
-                <div class="col-sm-3"></div>
-            </div>
-
-
-        
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">LOGO</a>
+      <ul class="navbar-nav  ml-auto">
+        <li class="nav-item">
+          <a href="#home" data-toggle="tab" class="nav-link active">Link-1</a>
+        </li>
+        <li class="nav-item">
+          <a href="#menu1" data-toggle="tab" class="nav-link">Link-2</a>
+        </li>
+        <li class="nav-item">
+          <a href="#menu2" data-toggle="tab" class="nav-link">Link-3</a>
+        </li>
+      </ul>
+    </nav>
+      <!-- tab panes -->
+      <div class="tab-content">
+        <div class="tab-pane active" id="home">
+          <h1 class="text-center text-success">Good morning</h1>
+          <img src="1.jpg" width="100%" alt="" />
+        </div>
+        <div class="tab-pane container fade" id="menu1">
+          <h1 class="text-center text-success">Good morning</h1>
+          <img src="2.jpg" width="100%" alt="" />
+        </div>
+        <div class="tab-pane container fade" id="menu2">
+          <h1 class="text-center text-success">Good morning</h1>
+          <img src="3.jpg" width="100%" alt="" />
+        </div>
+      </div>
     </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     <script
-    src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-    crossorigin="anonymous"
-  ></script>
-  <script
-    src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-    crossorigin="anonymous"
-  ></script>
-  <script
-    src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-    crossorigin="anonymous"
-  ></script>
-</body>
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
