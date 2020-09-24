@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- create a form -->
+    <form>
+      <!-- username -->
+      <div>
+        <label for="un">Username</label>
+        <input type="text" id="un" name="username" />
+      </div>
+      <!-- password -->
+      <div>
+        <label for="pw">Password</label>
+        <input type="password" id="pw" name="password" />
+      </div>
+
+      <!-- date of birth -->
+      <div>
+        <label for="dob">Date of birth</label>
+        <input type="date" name="dob" id="dob">
+      </div>
+
+      <!-- salary -->
+      <div>
+          <label for="sl">Salary</label>
+          <input type="number" name="salary" id="sl">
+      </div>
+
+      <!-- email -->
+      <div>
+          <label for="em">Email</label>
+          <input type="email" name="email" id="em">
+      </div>
+
+      <!-- profile pic upload -->
+      <div>
+          <label for="im">Upload profile image</label>
+          <input type="file" name="profileimage" id="im">
+      </div>
+
+      <!-- skillset -->
+      <div>
+          <label>Choose your skills</label>
+
+
+          <input type="checkbox" name="javascript" id="js">
+          <label for="js">JavaScript</label>
+
+          <input type="checkbox" name="angular" id="ang">
+          <label for="ang">Angular</label>
+      </div>
+
+       <!-- gender -->
+       <div>
+        <label>Choose your gender</label>
+
+
+        <input type="radio" name="gender" id="m">
+        <label for="m">Male</label>
+
+        <input type="radio" name="gender" id="f">
+        <label for="f">Female</label>
+    </div>
+
+      <!-- states -->
+      <div>
+        <label for="">Choose state</label>
+        <select name="" id="">
+          <option value="telangana">Telangana</option>
+          <option value="ap">Andhra pradesh</option>
+          <option value="kerala">Kerala</option>
+        </select>
+      </div>
+
+      <!-- feedback -->
+      <div>
+        <label for="">About yourself</label>
+        <textarea name="" id="" cols="50" rows="5"></textarea>
+      </div>
+      <!-- submit button -->
+      <button type="submit">Register</button>
+    </form>
+  </body>
+</html>
